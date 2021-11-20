@@ -36,13 +36,12 @@ namespace P3_1_1204039
             // 
             // OutputLabel
             // 
-            this.OutputLabel.AutoSize = true;
             this.OutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.OutputLabel.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.OutputLabel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.OutputLabel.Location = new System.Drawing.Point(14, 30);
             this.OutputLabel.Name = "OutputLabel";
-            this.OutputLabel.Size = new System.Drawing.Size(2, 20);
+            this.OutputLabel.Size = new System.Drawing.Size(264, 23);
             this.OutputLabel.TabIndex = 0;
             this.OutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -70,7 +69,7 @@ namespace P3_1_1204039
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkOrange;
+            this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(284, 136);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.HelloButton);
@@ -78,7 +77,6 @@ namespace P3_1_1204039
             this.Name = "Form1";
             this.Text = "Form Hello";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
